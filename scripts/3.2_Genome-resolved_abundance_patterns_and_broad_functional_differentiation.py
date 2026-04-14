@@ -10,9 +10,8 @@ from scipy import stats
 from pathlib import Path
 from matplotlib.patches import Ellipse
 
-# -----------------------------
+
 # Global style for main-text figure
-# -----------------------------
 plt.rcParams.update({
     'font.family': 'Arial',
     'font.sans-serif': ['Arial', 'Helvetica', 'DejaVu Sans'],
@@ -44,22 +43,19 @@ FS_PANEL = 9.0
 COLOR_PY = '#E69F00'   # '#FFA453'
 COLOR_HZ = '#56B4E9'   # '#4EA8C0'
 
-# -----------------------------
-# Load data
-# -----------------------------
-sample = pd.read_csv('1_样品信息表.txt', sep='\t')
-py_ab = pd.read_csv('3_濮阳MAG丰度表.txt', sep='\t')
-hz_ab = pd.read_csv('4_杭州MAG丰度表.txt', sep='\t')
-py_ann = pd.read_csv('5_濮阳MAG注释表.txt', sep='\t').rename(columns={'MAG ID': 'MAG_ID'})
-hz_ann = pd.read_csv('5_杭州MAG注释表.txt', sep='\t')
-py_fun = pd.read_csv('6_濮阳MAG功能注释表.txt', sep='\t', low_memory=False)
-hz_fun = pd.read_csv('6_杭州MAG功能注释表.txt', sep='\t', low_memory=False)
-py_env = pd.read_csv('2_濮阳环境因子与污染物表.txt', sep='\t')
-hz_env = pd.read_csv('2_杭州环境因子与污染物表.txt', sep='\t')
 
-# -----------------------------
+# Load data
+sample = pd.read_csv('1_Sample_metadata_and_inclusion_status.txt', sep='\t')
+py_ab = pd.read_csv('3_MAGs_abundance_Puyang.txt', sep='\t')
+hz_ab = pd.read_csv('4_MAGs_abundance_Hangzhou.txt', sep='\t')
+py_ann = pd.read_csv('5_MAGs_taxonomic_classification_Puyang.txt', sep='\t').rename(columns={'MAG ID': 'MAG_ID'})
+hz_ann = pd.read_csv('5_MAGs_taxonomic_classification_Hangzhou.txt', sep='\t')
+py_fun = pd.read_csv('6_MAGs_function_annotation_Puyang.txt', sep='\t', low_memory=False)
+hz_fun = pd.read_csv('6_MAGs_function_annotation_Hangzhou.txt', sep='\t', low_memory=False)
+py_env = pd.read_csv('2_Environmental_factors_and_pollutant_profiles_Puyang.txt', sep='\t')
+hz_env = pd.read_csv('2_Environmental_factors_and_pollutant_profiles_Hangzhou.txt', sep='\t')
+
 # Metadata
-# -----------------------------
 used = sample[sample['是否参与 MAG abundance 分析'].astype(str).str.lower() == 'yes'].copy()
 used['site_norm'] = used['site'].astype(str).str.strip().str.lower()
 used['depth'] = pd.to_numeric(used['depth'], errors='coerce')
@@ -78,9 +74,8 @@ hz_meta['C6-C9'] = pd.to_numeric(hz_meta['TPH (C6-C9)'], errors='coerce')
 hz_meta['C10-C40'] = pd.to_numeric(hz_meta['TPH (C10-C40)'], errors='coerce')
 hz_meta = hz_meta[['sample_ID', 'depth', 'C6-C9', 'C10-C40']].copy()
 
-# -----------------------------
+
 # Abundance processing
-# -----------------------------
 def prep_abundance(ab):
     ab = ab.copy()
     ab = ab.rename(columns={ab.columns[0]: 'MAG_ID'})
@@ -137,9 +132,8 @@ def best_associations(cor_df, ann_df, site_name):
 py_best = best_associations(py_cor, py_ann, 'Puyang')
 hz_best = best_associations(hz_cor, hz_ann, 'Hangzhou')
 
-# -----------------------------
+
 # KO matrices for PCA
-# -----------------------------
 def ko_presence(fun_df):
     tmp = fun_df.copy().rename(columns={fun_df.columns[0]: 'KO'})
     for col in tmp.columns[1:]:
@@ -151,9 +145,8 @@ def ko_presence(fun_df):
 py_pa = ko_presence(py_fun)
 hz_pa = ko_presence(hz_fun)
 
-# -----------------------------
+
 # Top MAGs for display
-# -----------------------------
 n_top = 15
 py_top = py_best.head(n_top).copy()
 hz_top = hz_best.head(n_top).copy()
@@ -182,9 +175,8 @@ hz_heat_plot = np.log10(hz_heat + 1e-6)
 heat_vmin = min(py_heat_plot.min().min(), hz_heat_plot.min().min())
 heat_vmax = max(py_heat_plot.max().max(), hz_heat_plot.max().max())
 
-# -----------------------------
+
 # Phylum composition
-# -----------------------------
 def phylum_comp(best_df, top_n=7):
     counts = best_df['Phylum'].fillna('Unclassified').value_counts()
     top = counts.head(top_n).index.tolist()
@@ -209,9 +201,8 @@ phy_df = pd.DataFrame({
     'Hangzhou': hz_phy.reindex(phyla_union).fillna(0).astype(int)
 })
 
-# -----------------------------
+
 # KO-profile PCA using top MAGs
-# -----------------------------
 sel_py = py_pa.loc[py_pa.index.intersection(py_top['MAG_ID'])].copy()
 sel_hz = hz_pa.loc[hz_pa.index.intersection(hz_top['MAG_ID'])].copy()
 all_kos = sel_py.columns.union(sel_hz.columns)
@@ -231,9 +222,7 @@ expl = pca.explained_variance_ratio_ * 100
 ko_meta['PC1'] = scores[:, 0]
 ko_meta['PC2'] = scores[:, 1]
 
-# -----------------------------
 # Confidence ellipse
-# -----------------------------
 def add_confidence_ellipse(ax, x, y, facecolor, edgecolor, n_std=2.0, linewidth=0.8, alpha=0.18):
     x = np.asarray(x)
     y = np.asarray(y)
@@ -266,9 +255,7 @@ def add_confidence_ellipse(ax, x, y, facecolor, edgecolor, n_std=2.0, linewidth=
     )
     ax.add_patch(ellipse)
 
-# -----------------------------
 # Plot Figure 2
-# -----------------------------
 fig = plt.figure(figsize=(FIG_W, FIG_H), dpi=DPI, constrained_layout=True)
 gs = fig.add_gridspec(2, 2, height_ratios=[1.12, 1], width_ratios=[1.35, 1])
 
@@ -379,7 +366,7 @@ ax4.legend(frameon=False, fontsize=FS_LEGEND)
 ax4.text(0.01, 1.02, 'd', transform=ax4.transAxes,
          fontsize=FS_PANEL, fontweight='bold', va='bottom')
 
-# only keep left and bottom spines for panel d, and make them thinner
+
 ax4.spines['top'].set_visible(False)
 ax4.spines['right'].set_visible(False)
 ax4.spines['left'].set_linewidth(0.6)
