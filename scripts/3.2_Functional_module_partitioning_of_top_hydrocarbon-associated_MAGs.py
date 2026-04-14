@@ -39,15 +39,15 @@ FS_PANEL = 9.0
 
 # Load data
 # -----------------------------
-sample = pd.read_csv('1_样品信息表.txt', sep='\t')
-py_ab = pd.read_csv('3_濮阳MAG丰度表.txt', sep='\t')
-hz_ab = pd.read_csv('4_杭州MAG丰度表.txt', sep='\t')
-py_ann = pd.read_csv('5_濮阳MAG注释表.txt', sep='\t').rename(columns={'MAG ID': 'MAG_ID'})
-hz_ann = pd.read_csv('5_杭州MAG注释表.txt', sep='\t')
-py_fun = pd.read_csv('6_濮阳MAG功能注释表.txt', sep='\t', low_memory=False)
-hz_fun = pd.read_csv('6_杭州MAG功能注释表.txt', sep='\t', low_memory=False)
-py_env = pd.read_csv('2_濮阳环境因子与污染物表.txt', sep='\t')
-hz_env = pd.read_csv('2_杭州环境因子与污染物表.txt', sep='\t')
+sample = pd.read_csv('1_Sample_metadata_and_inclusion_status.txt', sep='\t')
+py_ab = pd.read_csv('3_MAGs_abundance_Puyang.txt', sep='\t')
+hz_ab = pd.read_csv('4_MAGs_abundance_Hangzhou.txt', sep='\t')
+py_ann = pd.read_csv('5_MAGs_taxonomic_classification_Puyang.txt', sep='\t').rename(columns={'MAG ID': 'MAG_ID'})
+hz_ann = pd.read_csv('5_MAGs_taxonomic_classification_Hangzhou.txt', sep='\t')
+py_fun = pd.read_csv('6_MAGs_function_annotation_Puyang.txt', sep='\t', low_memory=False)
+hz_fun = pd.read_csv('6_MAGs_function_annotation_Hangzhou.txt', sep='\t', low_memory=False)
+py_env = pd.read_csv('2_Environmental_factors_and_pollutant_profiles_Puyang.txt', sep='\t')
+hz_env = pd.read_csv('2_Environmental_factors_and_pollutant_profiles_Hangzhou.txt', sep='\t')
 
 
 # Sample metadata
