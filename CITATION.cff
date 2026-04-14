@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: hydrocarbon-synergistic-guilds
+message: "If you use this repository, please cite the associated manuscript and Zenodo archive."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Ruihuan
+repository-code: https://github.com/zrhuan0318/hydrocarbon-synergistic-guilds
+license: MIT
