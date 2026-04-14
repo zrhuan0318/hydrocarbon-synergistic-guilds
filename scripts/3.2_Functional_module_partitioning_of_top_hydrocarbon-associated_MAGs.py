@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from pathlib import Path
 
-# -----------------------------
+
 # Global style for main-text figure
 # -----------------------------
 plt.rcParams.update({
@@ -23,8 +23,8 @@ plt.rcParams.update({
 })
 
 # Main-text figure size / resolution
-FIG_W = 7.2   # inches
-FIG_H = 6.6   # inches
+FIG_W = 7.2
+FIG_H = 6.6
 DPI = 600
 
 # Unified font sizes
@@ -36,7 +36,7 @@ FS_CBAR = 6.8
 FS_LEGEND = 6.2
 FS_PANEL = 9.0
 
-# -----------------------------
+
 # Load data
 # -----------------------------
 sample = pd.read_csv('1_样品信息表.txt', sep='\t')
@@ -49,7 +49,7 @@ hz_fun = pd.read_csv('6_杭州MAG功能注释表.txt', sep='\t', low_memory=Fals
 py_env = pd.read_csv('2_濮阳环境因子与污染物表.txt', sep='\t')
 hz_env = pd.read_csv('2_杭州环境因子与污染物表.txt', sep='\t')
 
-# -----------------------------
+
 # Sample metadata
 # -----------------------------
 used = sample[sample['是否参与 MAG abundance 分析'].astype(str).str.lower() == 'yes'].copy()
@@ -70,9 +70,8 @@ hz_meta['C6-C9'] = pd.to_numeric(hz_meta['TPH (C6-C9)'], errors='coerce')
 hz_meta['C10-C40'] = pd.to_numeric(hz_meta['TPH (C10-C40)'], errors='coerce')
 hz_meta = hz_meta[['sample_ID', 'depth', 'C6-C9', 'C10-C40']].copy()
 
-# -----------------------------
+
 # Abundance matrices
-# -----------------------------
 def prep_abundance(ab):
     ab = ab.copy()
     ab = ab.rename(columns={ab.columns[0]: 'MAG_ID'})
@@ -128,9 +127,8 @@ def best_associations(cor_df, ann_df, site_name):
 py_best = best_associations(py_cor, py_ann, 'Puyang')
 hz_best = best_associations(hz_cor, hz_ann, 'Hangzhou')
 
-# -----------------------------
+
 # KO matrix and curated modules
-# -----------------------------
 def ko_matrix(fun_df):
     tmp = fun_df.copy().rename(columns={fun_df.columns[0]: 'KO'})
     for col in tmp.columns[1:]:
@@ -215,9 +213,7 @@ hz_mod.index = hz_top.set_index('MAG_ID').loc[hz_mod.index, 'label']
 py_mod = py_mod.rename(columns=module_abbrev)
 hz_mod = hz_mod.rename(columns=module_abbrev)
 
-# -----------------------------
 # Summaries by site and by main associated variable
-# -----------------------------
 def summarize_modules(mod_df, top_df):
     top_df = top_df.set_index('label')
     joined = mod_df.copy()
@@ -234,9 +230,8 @@ module_summary = pd.DataFrame({
     'Hangzhou_top20_mean': hz_site_mean
 })
 
-# -----------------------------
+
 # Plot Figure 3
-# -----------------------------
 fig = plt.figure(figsize=(FIG_W, FIG_H), dpi=DPI)
 
 # 外层：上下两排
