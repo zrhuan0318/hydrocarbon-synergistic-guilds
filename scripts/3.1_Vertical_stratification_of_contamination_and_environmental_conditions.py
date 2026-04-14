@@ -10,7 +10,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from scipy.interpolate import PchipInterpolator
 
-# =========================
+
 # Global style
 # =========================
 plt.rcParams.update({
@@ -28,8 +28,8 @@ plt.rcParams.update({
 })
 
 # Final size
-FIG_W = 3.5   # inches
-FIG_H = 3.8   # inches
+FIG_W = 3.5
+FIG_H = 3.8
 DPI = 600
 
 # Colors
@@ -37,7 +37,7 @@ COLOR_LIGHT = '#589C4F'   # C6-C9
 COLOR_HEAVY = '#D15240'   # C10-C40
 COLOR_PY = '#C62F22'      # Puyang
 COLOR_HZ = '#0F77B5'      # Hangzhou
-COLOR_LOAD = '#7A1F5C'    # unified loading color
+COLOR_LOAD = '#7A1F5C'    
 COLOR_AXIS = '#333333'
 COLOR_GRID = '#D9D9D9'
 
@@ -48,12 +48,12 @@ FS_TICK = 6.6
 FS_LEGEND = 6.2
 FS_TEXT = 6.0
 
-# =========================
+
 # Load data
 # =========================
-sample_info = pd.read_csv('1_样品信息表.txt', sep='\t')
-py_env = pd.read_csv('2_濮阳环境因子与污染物表.txt', sep='\t')
-hz_env = pd.read_csv('2_杭州环境因子与污染物表.txt', sep='\t')
+sample_info = pd.read_csv('1_Sample_metadata_and_inclusion_status.txt', sep='\t')
+py_env = pd.read_csv('2_Environmental_factors_and_pollutant_profiles_Puyang.txt', sep='\t')
+hz_env = pd.read_csv('2_Environmental_factors_and_pollutant_profiles_Hangzhou.txt', sep='\t')
 
 used = sample_info[
     sample_info['是否参与 MAG abundance 分析'].astype(str).str.lower() == 'yes'
@@ -61,7 +61,7 @@ used = sample_info[
 used['site_norm'] = used['site'].astype(str).str.strip().str.lower()
 used['depth_mid'] = pd.to_numeric(used['depth'], errors='coerce')
 
-# =====================
+
 # Panels a/b: profiles
 # =====================
 py = used[used['site_norm'] == 'puyang'][['sample_ID', 'depth_mid']].merge(
@@ -160,7 +160,7 @@ def add_profile_with_shading(ax, df, xcol, ycol, color, label):
         zorder=3
     )
 
-# ==================
+
 # PCA data
 # ==================
 py_env2 = used[used['site_norm'] == 'puyang'][['sample_ID', 'depth_mid']].merge(
@@ -277,7 +277,7 @@ def add_confidence_ellipse(ax, x, y, color, n_std=1.6, alpha=0.10, lw=0.9):
     )
     ax.add_patch(ell)
 
-# ==================
+
 # Plotting
 # ==================
 fig = plt.figure(figsize=(FIG_W, FIG_H), dpi=DPI)
@@ -387,7 +387,7 @@ fig.text(
     ha='center', va='top', fontsize=FS_LABEL, color=COLOR_AXIS
 )
 
-# Save
+
 out_png = Path('Figure1_4panel.png')
 out_pdf = Path('Figure1_4panel.pdf')
 out_tif = Path('Figure1_4panel.tif')
