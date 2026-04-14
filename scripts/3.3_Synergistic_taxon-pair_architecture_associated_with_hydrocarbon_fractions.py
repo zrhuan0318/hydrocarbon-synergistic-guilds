@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import networkx as nx
 
-# -----------------------------
+
 # Global style
 # -----------------------------
 plt.rcParams.update({
@@ -50,7 +50,7 @@ files = {
 out_dir = Path('')
 out_dir.mkdir(parents=True, exist_ok=True)
 
-# -----------------------------
+
 # Helper functions
 # -----------------------------
 def short_tax(genus, phylum):
@@ -252,9 +252,8 @@ def save_figure(fig, stem):
     print(f"Saved: {pdf}")
     print(f"Saved: {tif}")
 
-# -----------------------------
+
 # Load all data
-# -----------------------------
 dfs = {}
 for key, path in files.items():
     if not Path(path).exists():
@@ -291,9 +290,8 @@ fraction_styles = {
     'C6-C9': '--'
 }
 
-# -----------------------------
+
 # a-d separate network panels
-# -----------------------------
 network_specs = [
     ('Figure4_a_network_PY_C10C40', 'Puyang C10-C40', 11),
     ('Figure4_b_network_HZ_C10C40', 'Hangzhou C10-C40', 13),
@@ -306,9 +304,8 @@ for stem, key, seed in network_specs:
     plot_network_panel(ax, top_dict[key], phylum_colors, seed=seed, max_labels=10)
     save_figure(fig, stem)
 
-# -----------------------------
+
 # e separate rank-synergy panel
-# -----------------------------
 fig, ax = plt.subplots(figsize=SIZE_E, dpi=DPI)
 
 for analysis in analysis_order:
@@ -338,9 +335,8 @@ ax.spines['right'].set_visible(False)
 
 save_figure(fig, 'Figure4_e_rank_synergy')
 
-# -----------------------------
+
 # f separate taxa recurrence panel
-# -----------------------------
 fig, ax = plt.subplots(figsize=SIZE_F, dpi=DPI)
 
 x_map = {a: i for i, a in enumerate(analysis_order)}
