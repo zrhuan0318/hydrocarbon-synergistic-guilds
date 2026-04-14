@@ -1,0 +1,46 @@
+source_otu	target_otu	synergy	redundant	source_phylum	source_genus	source_completeness	source_contamination	target_phylum	target_genus	target_completeness	target_contamination
+bin.151	bin.216	0.2736654114953472	0.4378359639034637	Desulfobacterota	UBA2192	92.9	1.35	Halobacteriota	JABLXE01	76.34	6.86
+bin.239	bin.111	0.23088329259886667	0.3465479960326584	Verrucomicrobiota	Udaeobacter	74.26	1.69	Chloroflexota	Bellilinea	73.36	5.0
+bin.214	bin.151	0.12790024278360754	0.22851592343230637	Halobacteriota	Methanocella	76.66	5.07	Desulfobacterota	UBA2192	92.9	1.35
+bin.216	bin.239	0.10257892701533257	0.4087958168364906	Halobacteriota	JABLXE01	76.34	6.86	Verrucomicrobiota	Udaeobacter	74.26	1.69
+bin.189	bin.140	0.07421541644098169	0.0	Actinobacteriota		91.25	2.36	Halobacteriota	Methanocella_A	95.92	1.31
+bin.24	bin.140	0.02718376824032917	0.06018705239305804	Halobacteriota	Methanocella	74.51	1.11	Halobacteriota	Methanocella_A	95.92	1.31
+bin.239	bin.181	0.012414429248147302	0.18063656186471694	Verrucomicrobiota	Udaeobacter	74.26	1.69	Proteobacteria	Macondimonas	93.97	2.01
+bin.151	bin.111	0.011999840557046214	0.3755881430996315	Desulfobacterota	UBA2192	92.9	1.35	Chloroflexota	Bellilinea	73.36	5.0
+bin.216	bin.111	0.010043004781988715	0.4849003256517169	Halobacteriota	JABLXE01	76.34	6.86	Chloroflexota	Bellilinea	73.36	5.0
+bin.214	bin.216	0.009581226093849753	0.3378281059843918	Halobacteriota	Methanocella	76.66	5.07	Halobacteriota	JABLXE01	76.34	6.86
+bin.24	bin.111	0.009540359728660327	0.2715133048170004	Halobacteriota	Methanocella	74.51	1.11	Chloroflexota	Bellilinea	73.36	5.0
+bin.151	bin.189	0.009508744120293889	0.16426189067568914	Desulfobacterota	UBA2192	92.9	1.35	Actinobacteriota		91.25	2.36
+bin.161	bin.140	0.009382084613411001	-0.05841568546804343	Halobacteriota	Methanocella	95.58	6.54	Halobacteriota	Methanocella_A	95.92	1.31
+bin.151	bin.239	0.00013730343147353656	0.29948363428440516	Desulfobacterota	UBA2192	92.9	1.35	Verrucomicrobiota	Udaeobacter	74.26	1.69
+bin.216	bin.181	0.0	0.31898889148377546	Halobacteriota	JABLXE01	76.34	6.86	Proteobacteria	Macondimonas	93.97	2.01
+bin.189	bin.24	0.0	0.06018705239305804	Actinobacteriota		91.25	2.36	Halobacteriota	Methanocella	74.51	1.11
+bin.216	bin.140	0.0	0.27357407322777455	Halobacteriota	JABLXE01	76.34	6.86	Halobacteriota	Methanocella_A	95.92	1.31
+bin.189	bin.239	0.0	0.135221743608716	Actinobacteriota		91.25	2.36	Verrucomicrobiota	Udaeobacter	74.26	1.69
+bin.161	bin.214	0.0	0.0058383472885737975	Halobacteriota	Methanocella	95.58	6.54	Halobacteriota	Methanocella	76.66	5.07
+bin.189	bin.111	0.0	0.21132625242394237	Actinobacteriota		91.25	2.36	Chloroflexota	Bellilinea	73.36	5.0
+bin.189	bin.181	0.0	0.04541481825600093	Actinobacteriota		91.25	2.36	Proteobacteria	Macondimonas	93.97	2.01
+bin.24	bin.181	0.0	0.10560187064905897	Halobacteriota	Methanocella	74.51	1.11	Proteobacteria	Macondimonas	93.97	2.01
+bin.239	bin.140	0.0	0.135221743608716	Verrucomicrobiota	Udaeobacter	74.26	1.69	Halobacteriota	Methanocella_A	95.92	1.31
+bin.111	bin.140	0.0	0.21132625242394237	Chloroflexota	Bellilinea	73.36	5.0	Halobacteriota	Methanocella_A	95.92	1.31
+bin.111	bin.181	0.0	0.2567410706799433	Chloroflexota	Bellilinea	73.36	5.0	Proteobacteria	Macondimonas	93.97	2.01
+bin.24	bin.239	0.0	0.19540879600177405	Halobacteriota	Methanocella	74.51	1.11	Verrucomicrobiota	Udaeobacter	74.26	1.69
+bin.151	bin.140	0.0	0.16426189067568914	Desulfobacterota	UBA2192	92.9	1.35	Halobacteriota	Methanocella_A	95.92	1.31
+bin.216	bin.24	0.0	0.3337611256208326	Halobacteriota	JABLXE01	76.34	6.86	Halobacteriota	Methanocella	74.51	1.11
+bin.216	bin.189	0.0	0.27357407322777455	Halobacteriota	JABLXE01	76.34	6.86	Actinobacteriota		91.25	2.36
+bin.161	bin.216	0.0	0.21515838775973112	Halobacteriota	Methanocella	95.58	6.54	Halobacteriota	JABLXE01	76.34	6.86
+bin.161	bin.189	0.0	-0.05841568546804343	Halobacteriota	Methanocella	95.58	6.54	Actinobacteriota		91.25	2.36
+bin.161	bin.24	0.0	0.00177136692501461	Halobacteriota	Methanocella	95.58	6.54	Halobacteriota	Methanocella	74.51	1.11
+bin.161	bin.239	0.0	0.07680605814067257	Halobacteriota	Methanocella	95.58	6.54	Verrucomicrobiota	Udaeobacter	74.26	1.69
+bin.161	bin.111	0.0	0.15291056695589894	Halobacteriota	Methanocella	95.58	6.54	Chloroflexota	Bellilinea	73.36	5.0
+bin.161	bin.181	0.0	-0.013000867212042501	Halobacteriota	Methanocella	95.58	6.54	Proteobacteria	Macondimonas	93.97	2.01
+bin.214	bin.189	0.0	0.06425403275661723	Halobacteriota	Methanocella	76.66	5.07	Actinobacteriota		91.25	2.36
+bin.214	bin.24	0.0	0.12444108514967528	Halobacteriota	Methanocella	76.66	5.07	Halobacteriota	Methanocella	74.51	1.11
+bin.214	bin.239	0.0	0.19947577636533323	Halobacteriota	Methanocella	76.66	5.07	Verrucomicrobiota	Udaeobacter	74.26	1.69
+bin.214	bin.111	0.0	0.2755802851805596	Halobacteriota	Methanocella	76.66	5.07	Chloroflexota	Bellilinea	73.36	5.0
+bin.214	bin.140	0.0	0.06425403275661723	Halobacteriota	Methanocella	76.66	5.07	Halobacteriota	Methanocella_A	95.92	1.31
+bin.214	bin.181	0.0	0.10966885101261817	Halobacteriota	Methanocella	76.66	5.07	Proteobacteria	Macondimonas	93.97	2.01
+bin.151	bin.24	0.0	0.2244489430687472	Desulfobacterota	UBA2192	92.9	1.35	Halobacteriota	Methanocella	74.51	1.11
+bin.161	bin.151	0.0	0.1058462052076457	Halobacteriota	Methanocella	95.58	6.54	Desulfobacterota	UBA2192	92.9	1.35
+bin.151	bin.181	0.0	0.20967670893169008	Desulfobacterota	UBA2192	92.9	1.35	Proteobacteria	Macondimonas	93.97	2.01
+bin.140	bin.181	0.0	0.04541481825600093	Halobacteriota	Methanocella_A	95.92	1.31	Proteobacteria	Macondimonas	93.97	2.01

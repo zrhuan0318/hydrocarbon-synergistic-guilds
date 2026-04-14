@@ -1,0 +1,46 @@
+source_otu	target_otu	synergy	redundant	source_phylum	source_genus	source_completeness	source_contamination	target_phylum	target_genus	target_completeness	target_contamination
+bin.155	bin.33	1.4136945212333765	0.2941007467027215	Desulfobacterota	Smithella	78.53	7.05	Spirochaetota	Rectinema	71.4	0.1
+bin.60	bin.138	0.31870330856493034	0.40394968000121173	Firmicutes_A		93.17	0.0	Bacteroidota	Tenuifilum	80.16	1.83
+bin.18	bin.60	0.27272139165006715	0.36921455188238983	Spirochaetota	UBA2256	81.54	0.0	Firmicutes_A		93.17	0.0
+bin.18	bin.33	0.25827173369933865	0.15564093851138447	Spirochaetota	UBA2256	81.54	0.0	Spirochaetota	Rectinema	71.4	0.1
+bin.33	bin.104	0.23617662122046557	0.09544652931593722	Spirochaetota	Rectinema	71.4	0.1	Chloroflexota	UBA4782	71.82	5.45
+bin.60	bin.33	0.19137814140948722	0.3342807890191031	Firmicutes_A		93.17	0.0	Spirochaetota	Rectinema	71.4	0.1
+bin.138	bin.153	0.16842702847730923	0.4577974170428812	Bacteroidota	Tenuifilum	80.16	1.83	Halobacteriota	Methanothrix	74.05	8.62
+bin.33	bin.153	0.1497147184403395	0.3881285260607725	Spirochaetota	Rectinema	71.4	0.1	Halobacteriota	Methanothrix	74.05	8.62
+bin.138	bin.104	0.1283455231835456	0.16511542029804588	Bacteroidota	Tenuifilum	80.16	1.83	Chloroflexota	UBA4782	71.82	5.45
+bin.155	bin.138	0.12245163908088236	0.36376963768483017	Desulfobacterota	Smithella	78.53	7.05	Bacteroidota	Tenuifilum	80.16	1.83
+bin.148	bin.155	0.10721543032494589	0.26789625829321906	Elusimicrobiota	UBA8919	84.0	0.0	Desulfobacterota	Smithella	78.53	7.05
+bin.60	bin.153	0.09091944112843192	0.6017021394317779	Firmicutes_A		93.17	0.0	Halobacteriota	Methanothrix	74.05	8.62
+bin.18	bin.155	0.08537055126098549	0.3290345095660082	Spirochaetota	UBA2256	81.54	0.0	Desulfobacterota	Smithella	78.53	7.05
+bin.148	bin.138	0.08514844760215229	0.16417157822070397	Elusimicrobiota	UBA8919	84.0	0.0	Bacteroidota	Tenuifilum	80.16	1.83
+bin.33	bin.132	0.06877132043571502	0.32174282016035477	Spirochaetota	Rectinema	71.4	0.1	Desulfobacterota	UBA2192	86.27	2.03
+bin.148	bin.153	0.06792715737957541	0.3619240376512701	Elusimicrobiota	UBA8919	84.0	0.0	Halobacteriota	Methanothrix	74.05	8.62
+bin.18	bin.104	0.06787471491008333	0.13038029217922398	Spirochaetota	UBA2256	81.54	0.0	Chloroflexota	UBA4782	71.82	5.45
+bin.18	bin.153	0.045708154378291566	0.4230622889240593	Spirochaetota	UBA2256	81.54	0.0	Halobacteriota	Methanothrix	74.05	8.62
+bin.18	bin.132	0.03941364877024476	0.35667658302364147	Spirochaetota	UBA2256	81.54	0.0	Desulfobacterota	UBA2192	86.27	2.03
+bin.155	bin.153	0.03875122031302869	0.5615220971153962	Desulfobacterota	Smithella	78.53	7.05	Halobacteriota	Methanothrix	74.05	8.62
+bin.18	bin.76	0.036018039902464875	0.4213382657242698	Spirochaetota	UBA2256	81.54	0.0	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.155	bin.104	0.03307315719017224	0.268840100370561	Desulfobacterota	Smithella	78.53	7.05	Chloroflexota	UBA4782	71.82	5.45
+bin.148	bin.60	0.03271646382182312	0.3080763006096007	Elusimicrobiota	UBA8919	84.0	0.0	Firmicutes_A		93.17	0.0
+bin.138	bin.76	0.032493604779174665	0.4560733938430917	Bacteroidota	Tenuifilum	80.16	1.83	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.155	bin.60	0.0302493712532894	0.5076743600737268	Desulfobacterota	Smithella	78.53	7.05	Firmicutes_A		93.17	0.0
+bin.18	bin.148	0.025587910502671556	0.12943645010188204	Spirochaetota	UBA2256	81.54	0.0	Elusimicrobiota	UBA8919	84.0	0.0
+bin.33	bin.138	0.021649087620763754	0.1903760666302064	Spirochaetota	Rectinema	71.4	0.1	Bacteroidota	Tenuifilum	80.16	1.83
+bin.132	bin.153	0.020566233351488654	0.5891641705730295	Desulfobacterota	UBA2192	86.27	2.03	Halobacteriota	Methanothrix	74.05	8.62
+bin.132	bin.76	0.01965868356499505	0.58744014737324	Desulfobacterota	UBA2192	86.27	2.03	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.18	bin.138	0.0145142384463449	0.22530982949349312	Spirochaetota	UBA2256	81.54	0.0	Bacteroidota	Tenuifilum	80.16	1.83
+bin.148	bin.76	0.011609008418996791	0.36020001445148064	Elusimicrobiota	UBA8919	84.0	0.0	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.148	bin.104	1.359316699604691e-13	0.0692420409064348	Elusimicrobiota	UBA8919	84.0	0.0	Chloroflexota	UBA4782	71.82	5.45
+bin.148	bin.132	2.149894021472124e-16	0.2955383317508523	Elusimicrobiota	UBA8919	84.0	0.0	Desulfobacterota	UBA2192	86.27	2.03
+bin.60	bin.132	2.1498940214720272e-16	0.53531643353136	Firmicutes_A		93.17	0.0	Desulfobacterota	UBA2192	86.27	2.03
+bin.155	bin.132	2.14989402147191e-16	0.49513639121497854	Desulfobacterota	Smithella	78.53	7.05	Desulfobacterota	UBA2192	86.27	2.03
+bin.148	bin.33	2.1498940214718255e-16	0.09450268723859531	Elusimicrobiota	UBA8919	84.0	0.0	Spirochaetota	Rectinema	71.4	0.1
+bin.153	bin.76	4.8446095620006776e-30	0.6538258532736578	Halobacteriota	Methanothrix	74.05	8.62	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.60	bin.76	4.037174635000564e-30	0.5999781162319884	Firmicutes_A		93.17	0.0	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.155	bin.76	4.037174635000564e-30	0.5597980739156068	Desulfobacterota	Smithella	78.53	7.05	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.33	bin.76	2.4223047810003388e-30	0.38640450286098305	Spirochaetota	Rectinema	71.4	0.1	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.104	bin.76	2.4223047810003388e-30	0.3611438565288225	Chloroflexota	UBA4782	71.82	5.45	Bacteroidota	Proteiniphilum	79.54	8.42
+bin.104	bin.153	2.018587317500282e-30	0.362867879728612	Chloroflexota	UBA4782	71.82	5.45	Halobacteriota	Methanothrix	74.05	8.62
+bin.60	bin.104	1.6148698540002258e-30	0.30902014268694256	Firmicutes_A		93.17	0.0	Chloroflexota	UBA4782	71.82	5.45
+bin.138	bin.132	1.6148698540002258e-30	0.3914117111424634	Bacteroidota	Tenuifilum	80.16	1.83	Desulfobacterota	UBA2192	86.27	2.03
+bin.132	bin.104	8.074349270001129e-31	0.29648217382819425	Desulfobacterota	UBA2192	86.27	2.03	Chloroflexota	UBA4782	71.82	5.45

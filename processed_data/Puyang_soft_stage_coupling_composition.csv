@@ -1,0 +1,10 @@
+stage_pair,weighted_synergy,weighted_proportion,distance
+Stage II -> Stage II,2.1047247802472477,0.8361264919030292,0
+Stage III -> Stage II,0.20202253418426752,0.0802558103454307,1
+Stage II -> Stage III,0.16641926377721716,0.06611199550317615,1
+Stage II -> Stage I,0.04406592264993641,0.017505702248363952,1
+Stage I -> Stage I,0.0,0.0,0
+Stage I -> Stage II,0.0,0.0,1
+Stage I -> Stage III,0.0,0.0,2
+Stage III -> Stage I,0.0,0.0,2
+Stage III -> Stage III,0.0,0.0,0
