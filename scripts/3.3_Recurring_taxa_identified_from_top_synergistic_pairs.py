@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
-# -----------------------------
+
 # 全局设置
 # -----------------------------
 plt.rcParams.update({'font.family': 'Arial', 'pdf.fonttype': 42, 'axes.linewidth': 0.7})
@@ -16,8 +16,8 @@ DPI = 600
 FS_AXIS, FS_TICK, FS_LEGEND = 7.8, 6.4, 6.0
 site_colors = {'Puyang': '#E69F00', 'Hangzhou': '#56B4E9'}
 
-# -----------------------------
-# 数据读取与绘图
+
+
 # -----------------------------
 files = {
     'Puyang C10-C40': 'Puyang_C10C40_sid_ready_sid_pairwise_network_annotated.tsv',
