@@ -1,0 +1,46 @@
+source_otu	target_otu	synergy	redundant	source_phylum	source_genus	source_completeness	source_contamination	target_phylum	target_genus	target_completeness	target_contamination
+bin.28	bin.65	0.3356754466354192	0.1210343673411921	Actinobacteriota		97.86	2.56	Actinobacteriota		91.03	1.71
+bin.65	bin.216	0.11462738226357036	0.12713253365841753	Actinobacteriota		91.03	1.71	Halobacteriota	JABLXE01	76.34	6.86
+bin.216	bin.151	0.0009948009545861173	0.14961273578538062	Halobacteriota	JABLXE01	76.34	6.86	Desulfobacterota	UBA2192	92.9	1.35
+bin.192	bin.123	0.0006822929461493333	-0.13943165258397872	UBA2233	UBA2233	74.21	2.25	Chloroflexota		78.74	4.29
+bin.28	bin.192	0.000488810272380981	0.13425372715725906	Actinobacteriota		97.86	2.56	UBA2233	UBA2233	74.21	2.25
+bin.123	bin.216	0.00038352862773822686	-0.14450402304600612	Chloroflexota		78.74	4.29	Halobacteriota	JABLXE01	76.34	6.86
+bin.216	bin.225	8.074349270001199e-17	0.06763976150622855	Halobacteriota	JABLXE01	76.34	6.86	Desulfobacterota	UBA2207	70.08	3.33
+bin.147	bin.189	0.0	-0.0006734663048824994	Actinobacteriota		95.83	3.33	Actinobacteriota		91.25	2.36
+bin.255	bin.123	0.0	-0.21214378455223468	UBP14		96.7	0.0	Chloroflexota		78.74	4.29
+bin.65	bin.123	0.0	-0.1526510124000457	Actinobacteriota		91.03	1.71	Chloroflexota		78.74	4.29
+bin.65	bin.225	0.0	0.05949277215218899	Actinobacteriota		91.03	1.71	Desulfobacterota	UBA2207	70.08	3.33
+bin.65	bin.151	0.0	0.14146574643134105	Actinobacteriota		91.03	1.71	Desulfobacterota	UBA2192	92.9	1.35
+bin.255	bin.192	0.0	0.07271213196825595	UBP14		96.7	0.0	UBA2233	UBA2233	74.21	2.25
+bin.255	bin.151	0.0	0.08197297427915207	UBP14		96.7	0.0	Desulfobacterota	UBA2192	92.9	1.35
+bin.255	bin.216	0.0	0.06763976150622855	UBP14		96.7	0.0	Halobacteriota	JABLXE01	76.34	6.86
+bin.255	bin.225	0.0	0.0	UBP14		96.7	0.0	Desulfobacterota	UBA2207	70.08	3.33
+bin.65	bin.255	0.0	0.05949277215218899	Actinobacteriota		91.03	1.71	UBP14		96.7	0.0
+bin.192	bin.216	0.0	0.1403518934744845	UBA2233	UBA2233	74.21	2.25	Halobacteriota	JABLXE01	76.34	6.86
+bin.192	bin.225	0.0	0.07271213196825595	UBA2233	UBA2233	74.21	2.25	Desulfobacterota	UBA2207	70.08	3.33
+bin.192	bin.151	0.0	0.154685106247408	UBA2233	UBA2233	74.21	2.25	Desulfobacterota	UBA2192	92.9	1.35
+bin.123	bin.225	0.0	-0.21214378455223468	Chloroflexota		78.74	4.29	Desulfobacterota	UBA2207	70.08	3.33
+bin.123	bin.151	0.0	-0.1301708102730826	Chloroflexota		78.74	4.29	Desulfobacterota	UBA2192	92.9	1.35
+bin.65	bin.192	0.0	0.13220490412044494	Actinobacteriota		91.03	1.71	UBA2233	UBA2233	74.21	2.25
+bin.28	bin.225	0.0	0.06154159518900311	Actinobacteriota		97.86	2.56	Desulfobacterota	UBA2207	70.08	3.33
+bin.28	bin.151	0.0	0.14351456946815516	Actinobacteriota		97.86	2.56	Desulfobacterota	UBA2192	92.9	1.35
+bin.189	bin.65	0.0	0.05881930584730649	Actinobacteriota		91.25	2.36	Actinobacteriota		91.03	1.71
+bin.147	bin.65	0.0	0.05949277215218899	Actinobacteriota		95.83	3.33	Actinobacteriota		91.03	1.71
+bin.147	bin.255	0.0	0.0	Actinobacteriota		95.83	3.33	UBP14		96.7	0.0
+bin.147	bin.192	0.0	0.07271213196825595	Actinobacteriota		95.83	3.33	UBA2233	UBA2233	74.21	2.25
+bin.147	bin.123	0.0	-0.21214378455223468	Actinobacteriota		95.83	3.33	Chloroflexota		78.74	4.29
+bin.147	bin.216	0.0	0.06763976150622855	Actinobacteriota		95.83	3.33	Halobacteriota	JABLXE01	76.34	6.86
+bin.147	bin.225	0.0	0.0	Actinobacteriota		95.83	3.33	Desulfobacterota	UBA2207	70.08	3.33
+bin.147	bin.151	0.0	0.08197297427915207	Actinobacteriota		95.83	3.33	Desulfobacterota	UBA2192	92.9	1.35
+bin.189	bin.28	0.0	0.06086812888412061	Actinobacteriota		91.25	2.36	Actinobacteriota		97.86	2.56
+bin.189	bin.255	0.0	-0.0006734663048824994	Actinobacteriota		91.25	2.36	UBP14		96.7	0.0
+bin.147	bin.28	0.0	0.06154159518900311	Actinobacteriota		95.83	3.33	Actinobacteriota		97.86	2.56
+bin.189	bin.192	0.0	0.07203866566337344	Actinobacteriota		91.25	2.36	UBA2233	UBA2233	74.21	2.25
+bin.189	bin.123	0.0	-0.21281725085711717	Actinobacteriota		91.25	2.36	Chloroflexota		78.74	4.29
+bin.189	bin.216	0.0	0.06696629520134605	Actinobacteriota		91.25	2.36	Halobacteriota	JABLXE01	76.34	6.86
+bin.189	bin.225	0.0	-0.0006734663048824994	Actinobacteriota		91.25	2.36	Desulfobacterota	UBA2207	70.08	3.33
+bin.189	bin.151	0.0	0.08129950797426956	Actinobacteriota		91.25	2.36	Desulfobacterota	UBA2192	92.9	1.35
+bin.28	bin.255	0.0	0.06154159518900311	Actinobacteriota		97.86	2.56	UBP14		96.7	0.0
+bin.28	bin.123	0.0	-0.15060218936323155	Actinobacteriota		97.86	2.56	Chloroflexota		78.74	4.29
+bin.28	bin.216	0.0	0.12918135669523167	Actinobacteriota		97.86	2.56	Halobacteriota	JABLXE01	76.34	6.86
+bin.225	bin.151	0.0	0.08197297427915207	Desulfobacterota	UBA2207	70.08	3.33	Desulfobacterota	UBA2192	92.9	1.35
