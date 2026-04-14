@@ -1,0 +1,153 @@
+MAG ID	Completeness	Contamination	Kingdom	Phylum	Class	Order	Family	Genus	Species
+bin.105	90.92	5.61	Archaea	Thermoproteota	Bathyarchaeia	B26-1	UBA233	PALSA-986	
+bin.1	81.8	0	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae		
+bin.10	88.18	2.85	Bacteria	Deinococcota	Deinococci				
+bin.100	96.39	0	Bacteria	Thermotogota	Thermotogae	Petrotogales	Kosmotogaceae	Mesotoga	Mesotoga prima
+bin.101	74.7	4.55	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	EnvOPS12	RBG-16-51-16	
+bin.102	71.24	5.17	Bacteria	Patescibacteria	Dojkabacteria	SC72	SC72	UBA5232	
+bin.103	89.6	1.62	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae	Aquiflexum	
+bin.104	71.82	5.45	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	Anaerolineaceae	UBA4782	
+bin.106	97.78	2.17	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales_A	Rhizobiaceae_A	Phyllobacterium	Phyllobacterium sp900539805
+bin.107	90.52	2.19	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae		
+bin.108	87.1	1.22	Bacteria	Firmicutes_B	Desulfitobacteriia	Desulfitobacteriales			
+bin.109	72.77	1.15	Bacteria	Actinobacteriota	Thermoleophilia	UBA2241	UBA2241	UBA2241	
+bin.11	85.74	0	Bacteria	Spirochaetota	Spirochaetia	Treponematales	UBA8932		
+bin.110	86.39	1.92	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	VadinHA17	LD21	
+bin.111	70.77	3.33	Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Planctomycetaceae		
+bin.112	93	0.99	Bacteria	Chloroflexota	Dehalococcoidia	Dehalococcoidales	UBA1222		
+bin.113	91.91	2.91	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrosopumilaceae	CSP1-1	
+bin.114	87.01	1.79	Bacteria	Caldisericota	Caldisericia	Cryosericales	Cryosericaceae	Cryosericum	
+bin.115	85.72	1.31	Archaea	Halobacteriota	Methanomicrobia	Methanomicrobiales	Methanoculleaceae	Methanoculleus	Methanoculleus sp002497965
+bin.116	82.3	8.36	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	Anaerolineaceae	UBA6107	
+bin.117	74.84	0	Bacteria	Patescibacteria	WWE3	UBA101185	UBA10185	JAAZNV01	
+bin.118	73.48	5.64	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	Anaerolineaceae	Bellilinea	
+bin.119	80.81	5.93	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	
+bin.12	79.66	0	Bacteria	Caldatribacteriota	JS1	SB-45	34-128	34-128	
+bin.120	77.52	0.65	Archaea	Halobacteriota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	UBA467	
+bin.121	91.94	0.84	Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	Ignavibacteriaceae		
+bin.122	84.16	1.98	Bacteria	Firmicutes_E	DTU015	D8A-2	D2		
+bin.123	70.69	9.48	Bacteria	Eisenbacteria	RBG-16-71-46	SZUA-252	SZUA-252	SZUA-252	
+bin.124	71.55	0	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae		
+bin.125	82.6	1.29	Bacteria	Desulfobacterota	Syntrophia	Syntrophales			
+bin.126	81.62	0.85	Bacteria	Actinobacteriota	RBG-13-55-18	RBG-13-55-18			
+bin.127	82.19	5.62	Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	GWC2-71-9	SZUA-320	
+bin.128	76.54	1.36	Bacteria	UBA2233	UBA2233	UBA2233	UBA2233	UBA2233	UBA2233 sp011620345
+bin.129	79.64	2.09	Bacteria	Chloroflexota	Anaerolineae	SBR1031	UBA2029	MO-CFX2	
+bin.13	76.82	5.73	Bacteria	Acidobacteriota	Blastocatellia	Pyrinomonadales	Pyrinomonadaceae	PSRF01	
+bin.130	84.36	9.92	Bacteria	Bacteroidota	UBA10030	UBA10030	UBA10030	2-02-FULL-55-14	
+bin.131	90.06	9.83	Bacteria	Tectomicrobia	Entotheonellia	Entotheonellales	Entotheonellaceae		
+bin.132	86.27	2.03	Bacteria	Desulfobacterota	Syntrophia	Syntrophales	UBA4778	UBA2192	UBA2192 sp002327315
+bin.133	85.13	1.34	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	UBA7960	UBA7960	
+bin.134	71.93	2.14	Bacteria	Actinobacteriota	Acidimicrobiia	UBA5794			
+bin.135	74.86	5.64	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Koribacteraceae		
+bin.136	77.64	4.05	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	AV2		
+bin.137	82.66	1.14	Bacteria	Acidobacteriota	UBA4820	UBA4820	DSQY01	DSQY01	
+bin.138	80.16	1.83	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	BBW3	Tenuifilum	Tenuifilum sp002383425
+bin.139	75.99	6.67	Bacteria	CSP1-3	CSP1-3	CSP1-3	13-1-40CM-64-14	SpSt-315	
+bin.14	76.7	0	Archaea	Halobacteriota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanolinea	
+bin.140	86.78	1.31	Bacteria	Firmicutes_B	Desulfotomaculia	Desulfotomaculales	Nap2-2B	SCADC1-2-3	
+bin.141	80.6	5.52	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methylobacter_A	
+bin.142	81.57	1.15	Bacteria	Spirochaetota	Spirochaetia	Treponematales	UBA12059	SZUA-370	
+bin.143	82.34	1.79	Bacteria	Caldisericota	Caldisericia	B22-G15	B22-G15	JAAYUH01	JAAYUH01 sp012517755
+bin.144	74.5	7.47	Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Sep-70	VAYN01	
+bin.145	80.52	8.62	Bacteria	Desulfobacterota_B	Binatia	Bin18	Bin18	JABFSC01	
+bin.146	80.82	0	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrosopumilaceae	DRGT01	
+bin.147	83.56	2.78	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	UBA9159		
+bin.148	84	0	Bacteria	Elusimicrobiota	UBA8919	UBA8919	UBA8919	UBA8919	UBA8919 sp002402375
+bin.149	89.52	1.99	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae		
+bin.15	93.18	1.14	Bacteria	Planctomycetota	Phycisphaerae	Sedimentisphaerales	Anaerohalophaeraceae	FEN-1350	
+bin.150	77.27	4.09	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	UBA6898	GW-Nitrospira-1	
+bin.151	81.82	5.37	Bacteria	Desulfobacterota_D	UBA1144	UBA2774	CSP1-2		
+bin.152	91.06	3.42	Bacteria	Acidobacteriota	Aminicenantia	Aminicenantales	Saccharicenantaceae	Saccharicenans	Saccharicenans sp002441005
+bin.153	74.05	8.62	Archaea	Halobacteriota	Methanosarcinia	Methanotrichales	Methanotrichaceae	Methanothrix	
+bin.155	78.53	7.05	Bacteria	Desulfobacterota	Syntrophia	Syntrophales	Smithellaceae	Smithella	
+bin.16	91.97	0.88	Bacteria	Desulfobacterota	Syntrophobacteria	Syntrophobacterales	Syntrophobacteraceae		
+bin.17	87.55	1.03	Bacteria	Armatimonadota	UBA5829	UBA5829	UBA5829	UBA5829	
+bin.18	81.54	0	Bacteria	Spirochaetota	Spirochaetia	Treponematales	UBA8932	UBA2256	UBA2256 sp002383375
+bin.19	77.83	0	Archaea	Thermoproteota	Methanomethylicia	Methanomethylicales	Methanomethylicaceae	Methanomethylicus	Methanomethylicus oleusabulum
+bin.2	77.92	0.58	Bacteria	Proteobacteria	Gammaproteobacteria	Coxiellales	Coxiellaceae		
+bin.20	81.38	2.15	Bacteria	Myxococcota	UBA727	UBA727	GCA-2721815		
+bin.21	79.33	3.36	Bacteria	Desulfobacterota_D	UBA1144	UBA2774			
+bin.22	92.88	0.91	Bacteria	Actinobacteriota	UBA1414	UBA1414	UBA1414	UBA1414	UBA1414 sp003486795
+bin.23	89.52	1.9	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	UBA932	Bact-08	
+bin.24	71.79	6.9	Bacteria	Patescibacteria	Dojkabacteria	SC72	SC72	UBA12078	
+bin.25	82.41	1.05	Bacteria	Firmicutes_B	Syntrophomonadia	Syntrophomonadales	Syntrophomonadaceae	PHAA01	
+bin.26	73.98	0	Bacteria	Patescibacteria	Microgenomatia	0-14-0-10-38-17	0-14-0-10-38-17		
+bin.27	73.3	5.56	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	UBA4823	9FT-COMBO-55-16	
+bin.28	87.98	3.03	Bacteria	Chloroflexota	Anaerolineae	Thermoflexales	Fen-1058		
+bin.29	85.65	3.23	Bacteria	Desulfobacterota	Syntrophia	Syntrophales	UBA2185	UBA2185	
+bin.3	83.94	4.73	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	Anaerolineaceae		
+bin.30	87.41	0.81	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	TTA-H9	TTA-H9	TTA-H9 sp002418865
+bin.31	87.12	2.81	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	Anaerolineaceae	49-20	
+bin.32	78.28	5.51	Bacteria	Proteobacteria	Alphaproteobacteria	UBA11222	UBA11222	UBA11222	
+bin.33	71.4	0.1	Bacteria	Spirochaetota	Spirochaetia	Treponematales	UBA8932	Rectinema	Rectinema subterraneum
+bin.34	85.7	3.8	Bacteria	Planctomycetota	Phycisphaerae	Sedimentisphaerales	SG8-4	PLanc-01	
+bin.35	88.84	2.27	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	EnvOPS12	RBG-16-51-16	
+bin.36	89.01	0	Bacteria	Desulfobacterota_F	Desulfuromonadia	Geobacterales	Pseudopelobacteraceae	Trichlorobacter	Trichlorobacter sp002419465
+bin.37	76.27	2.97	Bacteria	Chloroflexota	Dehalococcoidia	GIF9	AB-539-J10	SKVJ01	
+bin.38	90.76	2.52	Bacteria	Desulfobacterota_G	Syntrophorhabdia	Syntrophorhabdales	Syntrophorhabdaceae		
+bin.39	84.15	5.61	Bacteria	Acidobacteriota	Vicinamibacteria	Bin61	SMYC01		
+bin.4	79.83	3.42	Bacteria	Acidobacteriota	Aminicenantia	Aminicenantales	Saccharicenantaceae	Saccharicenans	
+bin.40	77.09	0.85	Bacteria	Actinobacteriota	Actinomycetia	Nitriliruptorales	Nitriliruptoraceae		
+bin.41	78.93	0.95	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Parvularculaceae	CV81	
+bin.42	79.24	7.05	Bacteria	Acidobacteriota	Vicinamibacteria	Bin61	SMYC01		
+bin.43	74.33	7.56	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	JdFR-86		
+bin.44	88.17	1.97	Bacteria	Desulfobacterota_G	Syntrophorhabdia	Syntrophorhabdales	Syntrophorhabdaceae		
+bin.45	78.1	2.59	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methyloterricola	
+bin.46	70.78	2.76	Bacteria	Actinobacteriota	UBA1414	UBA1414	UBA1414		
+bin.47	85.17	0.99	Bacteria	Firmicutes_E	DTU015	D8A-2	D2		
+bin.48	89.22	2.71	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	VadinHA17	SR-FBR-E99	SR-FBR-E99 sp002402965
+bin.49	70.56	2.07	Bacteria	Chloroflexota	Dehalococcoidia	GIF9	UBA5629	UBA6808	
+bin.5	82.23	0	Archaea	Halobacteriota	Methanomicrobia	Methanomicrobiales	Methanoculleaceae	Methanoculleus	Methanoculleus marisnigri_B
+bin.50	90.38	3.41	Bacteria	Desulfobacterota_D	UBA1144	UBA2774	UBA2774	2-12-FULL-53-21	
+bin.51	74.97	1.88	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	SM23-35	JACAEY01	
+bin.53	70.38	1.09	Bacteria	Chloroflexota	Anaerolineae	SBR1031	A4b	OLB15	
+bin.54	70.13	4.31	Bacteria	Actinobacteriota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Mycobacterium	
+bin.55	74.43	1.72	Bacteria	Patescibacteria	Paceibacteria	Paceibacterales	UBA5633	UBA6220	
+bin.56	71.56	5.56	Bacteria	Acidobacteriota	Aminicenantia	Aminicenantales	RBG-16-66-30	RBG-16-66-30	
+bin.57	88.59	3.27	Archaea	Halobacteriota	Methanocellia	Methanocellales	Methanocellaceae	Methanocella	
+bin.58	95.12	8.16	Bacteria	Firmicutes_B	Syntrophomonadia	Syntrophomonadales	Syntrophomonadaceae	UBA5314	
+bin.6	72.41	8.95	Bacteria	Actinobacteriota	Actinomycetia	Actinomycetales	Microbacteriaceae	Agromyces	Agromyces bauzanensis
+bin.60	93.17	0	Bacteria	Firmicutes_A	Clostridia	Oscillospirales	Ethanoligenenaceae		
+bin.61	79.64	7.14	Bacteria	Zixibacteria	MSB-5A5	DSPP01	DSPP01	DSPP01	
+bin.62	82.93	1.37	Bacteria	Bacteroidota	UBA10030	UBA10030	UBA8401	SpSt-333	
+bin.63	82.68	0	Bacteria	WOR-3	32-111	32-111	32-111	UBA2202	
+bin.64	92.59	3.07	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae		
+bin.65	76.92	0	Bacteria	WOR-3	32-111	32-111	32-111	UBA2202	UBA2202 sp002327905
+bin.66	75.21	2.52	Bacteria	Desulfobacterota_G	Syntrophorhabdia	Syntrophorhabdales	Syntrophorhabdaceae	UBA5609	
+bin.67	81.29	6.02	Bacteria	Desulfobacterota	Syntrophia	Syntrophales	UBA2251	UBA2251	UBA2251 sp002347815
+bin.68	74.17	1.12	Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	SURF-24		
+bin.69	76.22	3.87	Bacteria	Chloroflexota	Anaerolineae	UBA1429	UBA1429	JAAYDS01	
+bin.7	79.93	3.82	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp003355005
+bin.70	86.35	4.43	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	JJ008	
+bin.71	77.63	3.13	Bacteria	Bacteroidota	UBA10030	UBA10030	UBA10030	2-02-FULL-55-14	
+bin.72	81.03	0	Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	GWC2-71-9	WVYX01	
+bin.73	73.35	0.31	Bacteria	Thermotogota	Thermotogae	Thermotogales	Thermotogaceae	Pseudothermotoga_B	
+bin.74	72.94	0.99	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	UBA10212_A		
+bin.75	96.55	0	Bacteria	Caldisericota					
+bin.76	79.54	8.42	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Dysgonomonadaceae	Proteiniphilum	Proteiniphilum sp002383605
+bin.77	90.54	5.36	Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	Ignavibacteriaceae		
+bin.78	71.74	2.36	Bacteria	Actinobacteriota	Coriobacteriia	OPB41	UBA2279		
+bin.79	78.81	0.47	Bacteria	Patescibacteria	Paceibacteria	Paceibacterales	UBA5633	JAAZMU01	
+bin.8	70.86	3.45	Bacteria	Actinobacteriota	Acidimicrobiia	IMCC26256	PALSA-610		
+bin.80	97.6	0.8	Archaea	Methanobacteriota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	UBA117	UBA117 sp002494785
+bin.81	86.39	2.3	Bacteria	Bacteroidota	Kapabacteria	Kapabacteriales	UBA2268	UBA2268	UBA2268 sp002418685
+bin.82	80.41	1.1	Bacteria	Marinisomatota	UBA2242	UBA2242	UBA2242		
+bin.83	86.93	1.7	Bacteria	Planctomycetota	Phycisphaerae	SM23-33	SM23-33	JAAYCO01	
+bin.84	92.32	0.45	Bacteria	Nitrospirota	Thermodesulfovibrionia	Thermodesulfovibrionales	JdFR-88		
+bin.85	85.81	0	Bacteria	Desulfobacterota	Syntrophia	Syntrophales	UBA4778	UBA4778	UBA4778 sp002403175
+bin.86	78.62	3.28	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae	ELB16-189	
+bin.87	76.2	0.91	Bacteria	Actinobacteriota	UBA9087				
+bin.88	77.19	0	Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	RPRI01	RPRI01	
+bin.89	71.55	8.62	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales_A	Rhizobiaceae_A	Ochrobactrum_A	Ochrobactrum_A pituitosum
+bin.9	96.7	2.2	Bacteria	Marinisomatota	UBA2242	UBA2242	UBA2242	UBA2242	UBA2242 sp002347855
+bin.90	82.27	1.82	Bacteria	Chloroflexota	Anaerolineae	Anaerolineales	Anaerolineaceae	Ch10	
+bin.91	74.8	3.7	Bacteria	Acidobacteriota	Thermoanaerobaculia	Gp7-AA8	Gp7-AA8		
+bin.92	84.27	3.85	Bacteria	Acidobacteriota	Aminicenantia	Aminicenantales	RBG-16-66-30		
+bin.93	95.69	1.9	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	VadinHA17	LD21	
+bin.94	95.25	1.21	Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	Ignavibacteriaceae	Ignavibacterium	
+bin.95	79.45	7.27	Bacteria	Spirochaetota	Spirochaetia	Treponematales	UBA12059	SZUA-370	
+bin.96	80.68	0.65	Bacteria	Desulfobacterota_B	Binatia	Bin18	Bin18	SYOC01	
+bin.97	92.77	2.3	Bacteria	Spirochaetota	Spirochaetia	Treponematales	UBA12059	JAAYUR01	
+bin.98	96.27	0	Bacteria	Synergistota	Synergistia	Synergistales	54-24	54-24	54-24 sp001508935
+bin.99	80.29	2.9	Bacteria	Firmicutes_B	Desulfotomaculia	Desulfotomaculales	Pelotomaculaceae	UBA4789	
