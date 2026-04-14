@@ -1,9 +1,19 @@
 cff-version: 1.2.0
 title: hydrocarbon-synergistic-guilds
-message: "If you use this repository, please cite the associated manuscript and Zenodo archive."
+message: "If you use this repository, please cite the associated manuscript and the Zenodo archive."
 type: software
 authors:
   - family-names: Zhang
     given-names: Ruihuan
 repository-code: https://github.com/zrhuan0318/hydrocarbon-synergistic-guilds
 license: MIT
+abstract: >
+  Analysis scripts and processed data for a study of stage-coupled
+  synergistic microbial guilds underlying petroleum hydrocarbon degradation
+  under contrasting hydrogeological settings.
+keywords:
+  - petroleum hydrocarbons
+  - hydrogeological setting
+  - metagenome-assembled genomes
+  - microbial synergy
+  - natural attenuation
