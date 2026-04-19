@@ -10,7 +10,7 @@ This repository contains the analysis scripts used to investigate petroleum hydr
 
 ## Manuscript status
 
-Submitted / under review / unpublished manuscript.
+unpublished manuscript
 
 ## Main contents
 
