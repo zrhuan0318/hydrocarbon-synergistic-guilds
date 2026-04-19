@@ -37,7 +37,7 @@ Scripts are named to match the corresponding analyses and figures wherever possi
 
 ## Data availability
 
-Processed data, supplementary tables, intermediate outputs, and figure source data are available through Zenodo (DOI: XXX).
+Processed data, supplementary tables, intermediate outputs, and figure source data are available through Zenodo (DOI: 10.5281/zenodo.19647320).
 
 ## Code availability
 
