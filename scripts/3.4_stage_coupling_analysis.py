@@ -21,7 +21,7 @@ import numpy as np
 import pandas as pd
 
 
-# =========================
+
 # 1. Module definitions
 # =========================
 MODULES = {
@@ -47,7 +47,7 @@ STAGE_MAP = {
 STAGE_ORDER = ['Stage I', 'Stage II', 'Stage III']
 
 
-# =========================
+
 # 2. Helpers
 # =========================
 def read_ko_matrix(fun_file: str) -> pd.DataFrame:
@@ -123,7 +123,7 @@ def assign_depth_bin(depth: float) -> str:
         return '3.0-5.0 m'
 
 
-# =========================
+
 # 3. Main analysis
 # =========================
 def main():
