@@ -41,11 +41,11 @@ Processed data, supplementary tables, intermediate outputs, and figure source da
 
 ## Code availability
 
-A versioned snapshot of this repository is archived on Zenodo (DOI: XXX).
+A versioned snapshot of this repository is archived on Zenodo (DOI: 10.5281/zenodo.19647207).
 
 ## Citation
 
-If you use the code or processed data in this repository, please cite the associated manuscript and the Zenodo archive.
+If you use the code or processed data in this repository, please cite the associated manuscript and the Zenodo archive: https://doi.org/10.5281/zenodo.19647207
 
 ## Contact
 
