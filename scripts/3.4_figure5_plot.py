@@ -19,7 +19,7 @@ plt.rcParams["legend.fontsize"] = 7
 plt.rcParams["pdf.fonttype"] = 42
 plt.rcParams["ps.fonttype"] = 42
 
-# =========================
+
 # 1. Input files
 # =========================
 py_mat = pd.read_csv("Puyang_soft_stage_coupling_weighted_matrix.csv", index_col=0)
@@ -34,7 +34,7 @@ hz_depth = pd.read_csv("Hangzhou_depth_resolved_stage_succession_soft.csv")
 py_sci = pd.read_csv("Puyang_soft_stage_coupling_index.csv")
 hz_sci = pd.read_csv("Hangzhou_soft_stage_coupling_index.csv")
 
-# =========================
+
 # 2. Harmonize order
 # =========================
 stage_order = ["Stage I", "Stage II", "Stage III"]
@@ -55,7 +55,7 @@ hz_depth = hz_depth.sort_values("depth_bin")
 soft_sci_py = float(py_sci["soft_stage_coupling_index"].iloc[0])
 soft_sci_hz = float(hz_sci["soft_stage_coupling_index"].iloc[0])
 
-# =========================
+
 # 3. Colors
 # =========================
 # d panel only
@@ -69,7 +69,7 @@ stage_colors = {
     "Stage III_soft": "#B279A2",
 }
 
-# =========================
+
 # 4. Helpers
 # =========================
 def bubble_size(val, vmax, size_scale=3200):
@@ -196,7 +196,7 @@ def paired_lollipop(ax, py_comp, hz_comp, sci_py, sci_hz):
     ax.legend([h1, h2], labels, frameon=False, fontsize=7,
               loc="lower right", handletextpad=0.6, borderaxespad=0.4)
 
-# =========================
+
 # 5. Plot
 # =========================
 fig = plt.figure(figsize=(7.1, 5.6), dpi=300, constrained_layout=True)
@@ -239,7 +239,7 @@ add_panel_letter(ax4, "d")
 for ax in [ax1, ax2, ax3, ax4]:
     ax.tick_params(labelsize=7)
 
-# =========================
+
 # 6. Save
 # =========================
 out = Path("Figure5_soft_stage_coupling_bubble_refined_v4.png")
