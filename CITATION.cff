@@ -6,6 +6,8 @@ authors:
   - family-names: Zhang
     given-names: Ruihuan
 repository-code: https://github.com/zrhuan0318/hydrocarbon-synergistic-guilds
+doi: 10.5281/zenodo.19647207
+version: v1.0
 license: MIT
 abstract: >
   Analysis scripts and processed data for a study of stage-coupled
