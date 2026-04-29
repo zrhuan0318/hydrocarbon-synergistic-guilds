@@ -2,7 +2,7 @@
 
 Code and processed data organization for the manuscript:
 
-**“Contrasting hydrogeological settings structure stage-coupled synergistic guilds underlying petroleum hydrocarbon degradation”**
+**“Hydrogeological setting shapes the functional staging and vertical structure of synergistic microbial populations during hydrocarbon degradation”**
 
 ## Overview
 
